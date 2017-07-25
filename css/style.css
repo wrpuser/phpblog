@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,a,span,p,input,form{
+	font-family: 微软雅黑;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-decoration:none;
+}
+
+body{
+	background:#ddd;
+}
+
+.header{
+	background:rgb(10,10,10);
+}
+
+.header-top{
+	width:80%;
+	margin:0 auto;
+}
+
+.wel{
+	float:right;
+	margin:10px;
+	color:#999;
+}
+
+.info{
+	float:right; 
+	margin:10px;	
+}
+
+.info a{
+	margin:10px;
+	color:#999;
+}
+
+.header hgroup{
+	width:80%;
+	padding:50px 5px;
+	margin:0 auto;
+	color:#999;
+}
+
+.header hgroup h3{
+	line-height:2em;
+}
+
+.nav{
+	background:rgb(51,51,51);
+	width:80%;
+	height:50px;
+	margin:0 auto;
+}
+
+.nav ul{
+	height:50px;
+}
+
+.nav ul li{
+	float:left;
+	padding:15px 20px;
+	color:#999;
+}
+
+.nav ul li:hover{
+	background:rgb(2,154,103);
+	color:black;
+}
+
+.nav ul li.active{
+	background:rgb(2,154,103);
+	color:black;
+}
+
+.search{
+	margin-top:15px;
+}
+
+
+.mycarousel-inner{
+	width:80%;
+	margin:0 auto;
+}
+
+.containter{
+	width:80%;
+	margin:0 auto;
+	min-height:850px;
+}
+
+.figure{
+	margin: 20px -15px;
+	height:140px;
+	background:#fff;
+}
+
+.figure .img{
+	float:left;
+	width:25%;
+	text-align:center;
+}
+
+.figure figcaption{
+	float:right;
+	width:75%;
+	padding-right:10px;
+}
+
+.top{
+	height:100px;	
+}
+
+.top a{
+	color:#666;
+	text-decoration:none;
+}
+
+.top h4{
+	line-height:2em;
+}
+
+.bottom li{
+	float:left;
+	margin:10px 50px 10px 0;
+}
+
+.bottom a{
+	color:#666;
+	text-decoration:none;
+}
+
+.right{
+	background:#fff;
+	margin:20px -15px 20px 0;
+	padding-top:5px;
+}
+
+.right p{
+	width:90%;
+	margin:0 auto;
+	background:#ddd;
+	text-indent:1em;
+}
+
+.right-list{
+	padding:5px 20px 5px 20px;
+}
+
+.det{
+	color:#999;
+	margin:0 10px 0 0;
+}
+
+.right-list h5{
+	line-height:2em;
+}
+
+.right-list a{
+	color:#666;
+	text-decoration:none;
+}
+
+.pre{
+	height:100px;
+}
+
+.pre li{
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:center;
+	cursor:default;
+}
+
+.pre li:hover{
+	background:#ddd;
+}
+
+.ubb{
+	width:80%;
+	margin:10px 0;
+}
+
+.ubb textarea{
+	text-indent:1em;
+}
+
+.ubb p{
+	margin-top:10px;
+}
+
+.ubb button{
+	width:10em;
+}
+
+.footer{
+	height:100px;
+	background:rgb(10,10,10);
+	text-align:center;
+	line-height:100px;
+}
+
+
+/*注册/登录页面*/
+.reg,.log{
+	width:80%;
+	min-height:200px;
+	margin:50px auto;
+	background:#ccc;
+}
+
+.reg-inner,.log-inner{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	padding-top:50px;
+}
+
+.reg-inner p,.log-inner p{
+	padding:10px;
+}
+
+
+/*文章页面*/
+.content{
+	width:80%;
+	min-height:200px;
+	margin:50px auto;
+	background:#ccc;
+}
+
+.content-innerr{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	padding-top:50px;
+}
+
+.content-inner h3{
+	padding:10px;
+	text-align:center;
+}
+
+.content-inner p{
+	padding:10px;
+	text-indent:1em;
+	text-align:justify;
+
+}
